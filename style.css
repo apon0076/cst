@@ -1,0 +1,531 @@
+/* default css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+	body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* default css end*/
+
+/*index page css start*/
+
+/* header start*/
+header{
+	background-image: url("asset/images/hero-area-image.png");
+	background-repeat: no-repeat;
+	height: 90vh;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	
+}
+.main-logo {
+	max-height: 3rem;
+	margin-top: .5rem;
+}
+.add-to-cart{
+	margin-top: 1rem;
+}
+
+/* header end*/
+
+
+/* main menu css start */
+
+.main-menu-area{
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	height: 4rem;
+	
+}
+.main-menu-area nav ul{
+	list-style: none;
+	float: right;
+	
+}
+.main-menu-area nav ul li{
+	display: inline-block;
+	
+}
+.main-menu-area nav ul li a{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 20px;
+	font-weight: 600;
+}
+.main-menu-area nav ul li a:hover{
+	background-color: #f67322;
+}
+.cloud-1 img{
+	position: relative;
+	margin-top: 380px;
+}
+/* main menu css end */
+
+
+/* about us css start */
+.about-us{
+	margin-top: 200px;
+}
+.about-us h1{
+	color: #f67322;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.about-us .bar{
+	height: 5px;
+	width: 70px;
+	margin: auto;
+	background-color: #d8d8d8;
+}
+
+.about-us p{
+	margin-top: 80px;
+}
+/* about us css end */
+
+
+
+/* tires category css start */
+.tire-category h1{
+	color: #f67322;
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-top: 120px;
+
+}
+.tire-category .bar{
+	height: 5px;
+	width: 100px;
+	margin: auto;
+	background-color: #d8d8d8;
+}
+
+.tire-category li{
+	list-style: none;
+}
+
+.tire-category img{
+	margin-top: 80px;
+	height: 380px;
+	width: 500px;
+}
+
+/* tires category css end */
+
+
+/* news and event css start */
+.news-and-event{
+	background-image: url(asset/images/motor-bike-background.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 80vh;
+	width: 100%;
+	background-color: #f67322;
+	margin-top: 100px;
+}
+
+.news-and-event_carousel h1{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.news-and-event_carousel .bar{
+	height: 7px;
+	width: 70px;
+	margin: auto;
+	background-color: #d8d8d8;
+}
+.news-and-event_carousel ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 70px 0px 70px 0px;
+}
+.news-and-event_carousel ul li{
+	list-style: none;
+}
+.news-and-event_carousel ul li img{
+	height: 210px;
+	width: 350px;
+	margin: auto;
+}
+.news-and-event_details li{
+	display: block;
+	text-align: left;
+	color: white;
+	font-weight: 500;
+}
+/* news and event css end */
+
+
+/* footer css start */
+.footer-section ul{
+	list-style: none;
+}
+.footer-section ul h3{
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 194px 0px 52px 0px;
+}
+.footer-section ul li{
+	text-decoration: none;
+	margin-top: 25px;
+	font-size: 18px;
+}
+
+.footer-section .logo_social-area .logo_img img{
+	
+	margin: 194px 0px 57px 0px;
+}
+
+.footer-section .logo_social-area ul li{
+	
+	display: inline;
+}
+.logo_social-area ul li a:hover{
+color: #f36f21;
+} 
+.logo_social-area ul li .social-icon a img{
+	height: 40px;
+	width: 40px;
+}
+
+
+.footer_copyright-area{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* footer css end */
+
+/*index page css end*/
+
+
+
+
+
+/* motorbike tire page css start */
+
+
+
+/* header section css start */
+.motobike-tire-page-menu-bar{
+	background-color: black;
+	width: 100%;
+	height: 80px;
+}
+/* header section css end */
+
+
+/* page title section css start */
+.category_main-title{
+	padding: 10rem 0rem 1rem 0rem;
+}
+.category_main-title p{
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 600;
+	color: #f67322;
+}
+/* page title section css end */
+
+
+/* category menu section css start */
+.category_menu{
+	padding: 0rem 0rem 12rem 0rem;
+}
+.category_menu ul
+{
+	list-style: none;
+	border: 2px solid;
+}
+.category_menu ul li 
+{
+	display: inline-block;
+}
+.category_menu ul li a
+{
+	text-decoration: none;
+	padding:1rem 2.3rem 1rem 2.3rem;
+	text-align: center;
+	color: #b3b3b3;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+.category_menu ul li a:hover
+{
+	background-color: #f36f21;
+	color: white;
+}
+
+/* category menu section css end */
+
+
+/* product section css start */
+.vehicles_type p{
+	font-size: 2.5rem;
+	font-weight: 800;
+	color: #f36f21;
+	text-transform: uppercase;
+}
+.vehicles_type .bar{
+	height: 5px;
+	width: 70px;
+	margin: left;
+	background-color: #d8d8d8;
+}
+
+/* search bar css start */
+.search-container input[type=text] {
+	padding: 6px;
+	margin-top: 8px;
+	font-size: 17px;
+	border: 1px solid #909090;
+  }
+.search-container button {
+	float: right;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #909090;
+	color: white;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+  }
+
+  .search-container button:hover {
+	background: #f67322;
+  }
+ /* secrch bar css end  */
+
+/* product section css start */
+
+.featured-image{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 100%;
+	margin-top: 6.25rem;
+	text-align: center;
+	position: relative;
+}
+
+.featured-image button{
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	background-color: #f67322;
+	border: 1px solid white;
+	color: white;
+	padding: 1px 1px 2px 1px;
+}
+.card-plus{
+	border: 2px solid white;
+	border-radius: 50%;
+	height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+.tire-code{
+	background-color: black;
+	height: 4.375rem;
+	width: 100%;
+	margin-top: 1rem;
+}
+.tire-code p{
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+	
+}
+.tire-code p span{
+	color:#f67322
+} 
+
+
+#tire-size{
+	font-size: 0.875rem;
+	line-height: 0.0625rem;
+	
+}
+
+.quantity
+{
+	background-color: black;
+	height: 4.375rem;
+	width: -45%;
+	margin-top: 1rem;
+}
+
+.buy-now-btn button, 
+.place-order-btn button,
+.buy-now-btn button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #f67322;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 25px;
+	margin-top: 10px;
+	font-weight: 600;
+	text-transform: uppercase;
+  }
+
+/* product section css end */
+
+/*pagination css start*/
+  .pagination {
+	display: inline-block;
+	margin-top: 50px;
+  }
+  
+  .pagination a {
+	color: white;
+	background-color: #909090;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 1px solid #ddd;
+	margin: 50px;
+  }
+  .pagination a:hover{
+	  background-color: #f67322;
+	  color: white;
+  }
+
+  /*pagination css end*/
+
+/* motorbike tire page css end */
+
+
+
+
+/* ordering page css start */
+
+/* input form css start */
+.order-details{
+	padding: 7.0625rem 2.8rem 0rem 0rem;
+}
+.order-details h1{
+	padding-bottom: 3.125rem;
+}
+.text-box-1{
+	width: 100%;
+}
+.text-box-2{
+	width: 100%;
+	height: 8.4375rem;
+}
+
+.name-section label input{
+	display: inline;
+}
+.text-box-3{
+	width: 50%;
+}
+/* input form css end */
+
+
+/* order place area css start */
+.order-placing-area{
+padding: 7.0625rem 0rem 4.4375rem 2.8rem;
+}
+
+.order-placing-area h1{
+	padding-bottom: 3.125rem;
+}
+
+.order-placing-area table{
+	width: 100%;
+}
+.order-placing-area table, th, td {
+	border: 1px solid #d7d7d7;
+	border-collapse: collapse;
+	color: #737373;
+	font-weight: 500;
+  }
+
+.delivery_cod{
+	margin: 3.5625rem 0rem 2.8125rem 0rem;
+	padding: 0.625rem;
+	background-color: #d7d7d7;
+	color: black;
+	text-transform: uppercase;
+	font-size: 1.25rem;
+	font-weight: 800;
+	height: 3.125rem;
+    width: 100%;
+}
+.terms_conditions_checkbox{
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+/* order place area end */
+
+
+/* ordering page css end */
+
+
+
+
+/* tire details page css start */
+.category-menu_tire-description{
+	padding: 0;
+}
+.tire-title-and-details{
+	padding: 9.375rem 0rem 2.5rem 0rem;
+}
+
+/* #tire-description_featured image{
+	height: 50.1875rem;
+} */
+
+.buy-now-btn{
+	padding-top: 2.5rem;
+}
+#tire-title-and-details_title{
+	text-transform: uppercase;
+	color: #f67322;
+	font-size: 30px;
+	font-weight: 600;
+}
+.related-tire_title{
+	padding-top: 100px;
+}
+.related-tire_title{
+	text-transform: uppercase;
+	color: #f67322;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+#related-product_featured-images{
+	margin-top: 0px;
+	height: 28.1875rem;
+}
+
+
+/* tire details page css end */
